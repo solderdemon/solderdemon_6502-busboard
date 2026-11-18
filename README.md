@@ -4,6 +4,10 @@ A 5-slot expansion busboard for the SolderDemon 6502 computer. The 36-pin bus ke
 
 Designed as a modular vertical-card backplane architecture featuring 1 dedicated host connection for the SolderDemon 6502 CPU board and 4 peripheral expansion slots (e.g., RAM boards, I/O controllers), along with flexible 5V power delivery and host isolation options.
 
+![Assembled SolderDemon 6502 Busboard r1](images/solderdemon_6502-busboard-photo.png)
+
+*Prototype photo with edited background and lighting.*
+
 ## Start here
 
 - [KiCad project](design/solderdemon_6502-busboard.kicad_pro)
