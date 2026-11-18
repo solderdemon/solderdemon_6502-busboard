@@ -1,0 +1,139 @@
+** Drc report for solderdemon_6502-busboard.kicad_pcb **
+** Created on 2026-11-18T13:56:55 **
+** Report includes: Errors, Warnings **
+
+** Found 4 DRC violations **
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1944 mm)
+    Rule: board setup constraints hole; error
+    @(124.6400 mm, 42.0250 mm): Pad A1 [GND] of J3 on F.Cu
+    @(125.7150 mm, 41.7150 mm): NPTH pad of J3
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1944 mm)
+    Rule: board setup constraints hole; error
+    @(124.6400 mm, 35.6250 mm): Pad A12 [GND] of J3 on F.Cu
+    @(125.7150 mm, 35.9350 mm): NPTH pad of J3
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1944 mm)
+    Rule: board setup constraints hole; error
+    @(124.6400 mm, 35.6250 mm): Pad B1 [GND] of J3 on F.Cu
+    @(125.7150 mm, 35.9350 mm): NPTH pad of J3
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1944 mm)
+    Rule: board setup constraints hole; error
+    @(124.6400 mm, 42.0250 mm): Pad B12 [GND] of J3 on F.Cu
+    @(125.7150 mm, 41.7150 mm): NPTH pad of J3
+
+** Found 0 unconnected pads **
+
+** Found 35 Footprint errors **
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: '', Schematic: 'Host Connection (to SBC J5)')
+    Local override; warning
+    @(6.0000 mm, 14.4250 mm): Footprint BUS1
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: '', Schematic: 'Expansion Slot 1')
+    Local override; warning
+    @(26.0000 mm, 14.4250 mm): Footprint BUS2
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: '', Schematic: 'Expansion Slot 2')
+    Local override; warning
+    @(46.0000 mm, 14.4250 mm): Footprint BUS3
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: '', Schematic: 'Expansion Slot 3')
+    Local override; warning
+    @(66.0000 mm, 14.4250 mm): Footprint BUS4
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: '', Schematic: 'Expansion Slot 4')
+    Local override; warning
+    @(86.0000 mm, 14.4250 mm): Footprint BUS5
+[footprint_symbol_mismatch]: CP_Radial_D6.3mm_P2.50mm doesn't match footprint given by symbol (Capacitor_THT:CP_Radial_D6.3mm_P2.50mm)
+    Local override; warning
+    @(110.4650 mm, 9.4250 mm): Footprint C1
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: '', Schematic: 'BUS1 Decoupling')
+    Local override; warning
+    @(17.2700 mm, 16.9650 mm): Footprint C2
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: '', Schematic: 'Slot 1 Decoupling')
+    Local override; warning
+    @(37.2700 mm, 16.9650 mm): Footprint C3
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: '', Schematic: 'Slot 2 Decoupling')
+    Local override; warning
+    @(57.2700 mm, 16.9650 mm): Footprint C4
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: '', Schematic: 'Slot 3 Decoupling')
+    Local override; warning
+    @(77.2700 mm, 16.9650 mm): Footprint C5
+[footprint_symbol_field_mismatch]: Field 'Description' differs (PCB: '', Schematic: 'Slot 4 Decoupling')
+    Local override; warning
+    @(97.2700 mm, 16.9650 mm): Footprint C6
+[footprint_symbol_mismatch]: C_Disc_D5.0mm_W2.5mm_P2.50mm doesn't match footprint given by symbol (Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm)
+    Local override; warning
+    @(97.2700 mm, 25.8250 mm): Footprint C7
+[footprint_symbol_mismatch]: Value (H1) doesn't match symbol value (MountingHole)
+    Local override; warning
+    @(0.0000 mm, 5.0000 mm): Footprint H1
+[footprint_symbol_mismatch]: MountingHole_3.2mm_M3_Pad doesn't match footprint given by symbol (MountingHole:MountingHole_3.2mm_M3_Pad)
+    Local override; warning
+    @(0.0000 mm, 5.0000 mm): Footprint H1
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    Local override; warning
+    @(0.0000 mm, 5.0000 mm): Footprint H1
+[footprint_symbol_mismatch]: Value (H2) doesn't match symbol value (MountingHole)
+    Local override; warning
+    @(127.0000 mm, 5.0000 mm): Footprint H2
+[footprint_symbol_mismatch]: MountingHole_3.2mm_M3_Pad doesn't match footprint given by symbol (MountingHole:MountingHole_3.2mm_M3_Pad)
+    Local override; warning
+    @(127.0000 mm, 5.0000 mm): Footprint H2
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    Local override; warning
+    @(127.0000 mm, 5.0000 mm): Footprint H2
+[footprint_symbol_mismatch]: Value (H3) doesn't match symbol value (MountingHole)
+    Local override; warning
+    @(127.0000 mm, 95.0000 mm): Footprint H3
+[footprint_symbol_mismatch]: MountingHole_3.2mm_M3_Pad doesn't match footprint given by symbol (MountingHole:MountingHole_3.2mm_M3_Pad)
+    Local override; warning
+    @(127.0000 mm, 95.0000 mm): Footprint H3
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    Local override; warning
+    @(127.0000 mm, 95.0000 mm): Footprint H3
+[footprint_symbol_mismatch]: Value (H4) doesn't match symbol value (MountingHole)
+    Local override; warning
+    @(0.0000 mm, 95.0000 mm): Footprint H4
+[footprint_symbol_mismatch]: MountingHole_3.2mm_M3_Pad doesn't match footprint given by symbol (MountingHole:MountingHole_3.2mm_M3_Pad)
+    Local override; warning
+    @(0.0000 mm, 95.0000 mm): Footprint H4
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    Local override; warning
+    @(0.0000 mm, 95.0000 mm): Footprint H4
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    Local override; warning
+    @(63.5000 mm, 5.0000 mm): Footprint H5
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    Local override; warning
+    @(63.5000 mm, 95.0000 mm): Footprint H6
+[footprint_symbol_mismatch]: BarrelJack_Horizontal doesn't match footprint given by symbol (Connector_BarrelJack:BarrelJack_Horizontal)
+    Local override; warning
+    @(117.5000 mm, 53.3250 mm): Footprint J1
+[footprint_symbol_mismatch]: PinHeader_1x02_P2.54mm_Vertical doesn't match footprint given by symbol (Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical)
+    Local override; warning
+    @(126.0050 mm, 72.0050 mm): Footprint J2
+[footprint_symbol_mismatch]: USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal doesn't match footprint given by symbol (Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal)
+    Local override; warning
+    @(128.3200 mm, 38.8250 mm): Footprint J3
+[footprint_symbol_mismatch]: PinHeader_1x02_P2.54mm_Vertical doesn't match footprint given by symbol (Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical)
+    Local override; warning
+    @(16.0000 mm, 24.5850 mm): Footprint JP1
+[footprint_symbol_mismatch]: LED_D5.0mm doesn't match footprint given by symbol (LED_THT:LED_D5.0mm)
+    Local override; warning
+    @(113.0050 mm, 16.8250 mm): Footprint LED1
+[footprint_symbol_mismatch]: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal doesn't match footprint given by symbol (Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal)
+    Local override; warning
+    @(102.8450 mm, 27.8250 mm): Footprint R1
+[footprint_symbol_mismatch]: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal doesn't match footprint given by symbol (Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal)
+    Local override; warning
+    @(93.5750 mm, 35.9850 mm): Footprint R2
+[footprint_symbol_mismatch]: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal doesn't match footprint given by symbol (Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal)
+    Local override; warning
+    @(113.0000 mm, 37.8250 mm): Footprint R3
+[footprint_symbol_mismatch]: R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal doesn't match footprint given by symbol (Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal)
+    Local override; warning
+    @(113.0000 mm, 32.8250 mm): Footprint R4
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

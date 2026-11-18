@@ -28,3 +28,16 @@ scratch/
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# Local build products
+/code/build/*
+!/code/build/README.md
+
+# Python caches
+__pycache__/
+
+# Local KiCad and fabrication work products
+*.kicad_prl
+.history/
+*-backups/
+fabrication-toolkit-options.json

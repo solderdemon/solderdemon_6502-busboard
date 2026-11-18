@@ -1,0 +1,8 @@
+(fp_lib_table
+ (lib (name "SolderDemonDirectMount")(type "KiCad")(uri "${KIPRJMOD}/SolderDemonDirectMount.pretty")(options "")(descr "Direct-mount connector numbering; preserves the bus pad locations"))
+
+ (lib (name "SolderDemonBus")(type "KiCad")(uri "${KIPRJMOD}/SolderDemonBus.pretty")(options "")(descr "Vertical card backplane interface"))
+ (lib (name "SolderDemon")(type "KiCad")(uri "${KIPRJMOD}/SolderDemon.pretty")(options "")(descr "SolderDemon board artwork"))
+  (lib (name "SolderDemonCaps")(type "KiCad")(uri "${KIPRJMOD}/SolderDemonCaps.pretty")(options "")(descr "100 nF, 5.08 mm pitch"))
+  (lib (name "SolderDemonBrand")(type "KiCad")(uri "${KIPRJMOD}/SolderDemonBrand.pretty")(options "")(descr "SolderDemon logo, tools/brand"))
+)

@@ -1,5 +1,0 @@
-(fp_lib_table
- (lib (name "RoscoDirectMount")(type "KiCad")(uri "${KIPRJMOD}/RoscoDirectMount.pretty")(options "")(descr "Direct-mount connector numbering; preserve Rosco pad locations"))
-
- (lib (name "RoscoBackplane")(type "KiCad")(uri "${KIPRJMOD}/RoscoBackplane.pretty")(options "")(descr "Vertical card backplane interface"))
-)
